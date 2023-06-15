@@ -1,0 +1,4 @@
+<network>
+  <name>isolated-01</name>
+  <bridge name='iso-br0' stp='off' delay='0'/>
+</network>

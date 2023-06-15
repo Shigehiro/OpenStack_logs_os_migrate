@@ -1,0 +1,38 @@
+os_migrate_version: 0.7.0
+resources:
+- _info:
+    created_at: '2021-03-25T05:12:40Z'
+    id: 86d3d4ae-bc57-4aea-a6d6-162af09cd384
+    network_id: 7f2cb496-a3f9-49ec-9743-8dd4c09f568d
+    prefix_length: null
+    project_id: f89e7437221945da9b929cc5d9896d77
+    revision_number: 0
+    segment_id: null
+    subnet_pool_id: null
+    updated_at: '2021-03-25T05:12:40Z'
+  _migration_params: {}
+  params:
+    allocation_pools:
+    - end: 172.16.10.50
+      start: 172.16.10.10
+    cidr: 172.16.10.0/24
+    description: ''
+    dns_nameservers:
+    - 8.8.8.8
+    gateway_ip: 172.16.10.254
+    host_routes: []
+    ip_version: 4
+    ipv6_address_mode: null
+    ipv6_ra_mode: null
+    is_dhcp_enabled: true
+    name: public-500
+    network_ref:
+      domain_name: '%auth%'
+      name: public-500
+      project_name: '%auth%'
+    segment_ref: null
+    service_types: []
+    subnet_pool_ref: null
+    tags: []
+    use_default_subnet_pool: null
+  type: openstack.subnet.Subnet

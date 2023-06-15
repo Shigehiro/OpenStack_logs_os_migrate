@@ -1,0 +1,16 @@
+os_migrate_version: 0.7.0
+resources:
+- _info:
+    created_at: '2021-03-29T03:48:16.000000'
+    fingerprint: c5:2f:eb:6d:c0:2c:3c:94:45:4f:07:18:84:9c:80:94
+    id: key01
+    is_deleted: false
+    type: ssh
+    user_id: 60b0caf2cf114e0db0df55f395ea2049
+  _migration_params: {}
+  params:
+    name: key01
+    private_key: null
+    public_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8N15nSJn1w9OKZvej6iJxgXt6eJs9O9IzL7eV/COH0J9/wLNyPO74IfA8PigIW2168QdLX9orT1FO9X/ZOuS5Ol+IqgvtJR57fdAsRlWGD7k6adWJGBX49LraH+kVT8ljka1cyqFpneiG1udvoA4uCL1oAMvawhxUhUo3OwOnAC5Gp8e2XlKGEd268EQCwUtEHZmECFPQ37SS/Qizsl7izGicQC0Tqs6ML42t4qh67NFzpa2lA0RXiZV96UrKjypRtfoOi0JFeazDz+5VKI29xcL2sjnU/p8zxJNQUGRZtaaqYLj+dRqp9WKSpY450dpjF9izAQfWz6dTZwaNSyfH
+      Generated-by-Nova
+  type: openstack.compute.Keypair

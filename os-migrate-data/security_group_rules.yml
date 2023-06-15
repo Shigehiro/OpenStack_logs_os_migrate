@@ -1,0 +1,192 @@
+os_migrate_version: 0.7.0
+resources:
+- _info:
+    created_at: '2021-03-25T05:19:17Z'
+    id: 27d4ff69-8dd6-4cfd-a0c2-3b3f683e2376
+    project_id: 4fcea3f39f8843dd817a78261588437d
+    remote_group_id: null
+    revision_number: 0
+    security_group_id: 292f39b4-3094-4681-afeb-a626fd689a75
+    updated_at: '2021-03-25T05:19:17Z'
+  _migration_params: {}
+  params:
+    description: ''
+    direction: ingress
+    ether_type: IPv4
+    port_range_max: null
+    port_range_min: null
+    protocol: icmp
+    remote_group_ref: null
+    remote_ip_prefix: null
+    security_group_ref:
+      domain_name: '%auth%'
+      name: demo-sec01
+      project_name: '%auth%'
+  type: openstack.network.SecurityGroupRule
+- _info:
+    created_at: '2021-03-25T05:19:14Z'
+    id: 621f37a6-df07-44f7-8b63-5b5339f74e22
+    project_id: 4fcea3f39f8843dd817a78261588437d
+    remote_group_id: null
+    revision_number: 0
+    security_group_id: 292f39b4-3094-4681-afeb-a626fd689a75
+    updated_at: '2021-03-25T05:19:14Z'
+  _migration_params: {}
+  params:
+    description: null
+    direction: egress
+    ether_type: IPv6
+    port_range_max: null
+    port_range_min: null
+    protocol: null
+    remote_group_ref: null
+    remote_ip_prefix: null
+    security_group_ref:
+      domain_name: '%auth%'
+      name: demo-sec01
+      project_name: '%auth%'
+  type: openstack.network.SecurityGroupRule
+- _info:
+    created_at: '2021-03-25T05:19:21Z'
+    id: 6a82416d-2d1f-437d-86e2-da76142fc8d0
+    project_id: 4fcea3f39f8843dd817a78261588437d
+    remote_group_id: null
+    revision_number: 0
+    security_group_id: 292f39b4-3094-4681-afeb-a626fd689a75
+    updated_at: '2021-03-25T05:19:21Z'
+  _migration_params: {}
+  params:
+    description: ''
+    direction: ingress
+    ether_type: IPv4
+    port_range_max: 1023
+    port_range_min: 22
+    protocol: tcp
+    remote_group_ref: null
+    remote_ip_prefix: null
+    security_group_ref:
+      domain_name: '%auth%'
+      name: demo-sec01
+      project_name: '%auth%'
+  type: openstack.network.SecurityGroupRule
+- _info:
+    created_at: '2021-03-25T05:19:14Z'
+    id: b209ee5b-044f-4be6-8721-33932cd4bcb4
+    project_id: 4fcea3f39f8843dd817a78261588437d
+    remote_group_id: null
+    revision_number: 0
+    security_group_id: 292f39b4-3094-4681-afeb-a626fd689a75
+    updated_at: '2021-03-25T05:19:14Z'
+  _migration_params: {}
+  params:
+    description: null
+    direction: egress
+    ether_type: IPv4
+    port_range_max: null
+    port_range_min: null
+    protocol: null
+    remote_group_ref: null
+    remote_ip_prefix: null
+    security_group_ref:
+      domain_name: '%auth%'
+      name: demo-sec01
+      project_name: '%auth%'
+  type: openstack.network.SecurityGroupRule
+- _info:
+    created_at: '2021-03-24T18:22:19Z'
+    id: 032092e7-a5ff-4c41-9a5d-edd0e9e39f03
+    project_id: 4fcea3f39f8843dd817a78261588437d
+    remote_group_id: null
+    revision_number: 0
+    security_group_id: 363bb60f-ad24-4c2f-be83-491e575db37d
+    updated_at: '2021-03-24T18:22:19Z'
+  _migration_params: {}
+  params:
+    description: null
+    direction: egress
+    ether_type: IPv4
+    port_range_max: null
+    port_range_min: null
+    protocol: null
+    remote_group_ref: null
+    remote_ip_prefix: null
+    security_group_ref:
+      domain_name: '%auth%'
+      name: default
+      project_name: '%auth%'
+  type: openstack.network.SecurityGroupRule
+- _info:
+    created_at: '2021-03-24T18:22:19Z'
+    id: 1bc426ee-9b91-4945-b923-83e912065977
+    project_id: 4fcea3f39f8843dd817a78261588437d
+    remote_group_id: 363bb60f-ad24-4c2f-be83-491e575db37d
+    revision_number: 0
+    security_group_id: 363bb60f-ad24-4c2f-be83-491e575db37d
+    updated_at: '2021-03-24T18:22:19Z'
+  _migration_params: {}
+  params:
+    description: null
+    direction: ingress
+    ether_type: IPv6
+    port_range_max: null
+    port_range_min: null
+    protocol: null
+    remote_group_ref:
+      domain_name: '%auth%'
+      name: default
+      project_name: '%auth%'
+    remote_ip_prefix: null
+    security_group_ref:
+      domain_name: '%auth%'
+      name: default
+      project_name: '%auth%'
+  type: openstack.network.SecurityGroupRule
+- _info:
+    created_at: '2021-03-24T18:22:19Z'
+    id: 7e6f8ccb-5244-4005-9b2e-1206704726b4
+    project_id: 4fcea3f39f8843dd817a78261588437d
+    remote_group_id: null
+    revision_number: 0
+    security_group_id: 363bb60f-ad24-4c2f-be83-491e575db37d
+    updated_at: '2021-03-24T18:22:19Z'
+  _migration_params: {}
+  params:
+    description: null
+    direction: egress
+    ether_type: IPv6
+    port_range_max: null
+    port_range_min: null
+    protocol: null
+    remote_group_ref: null
+    remote_ip_prefix: null
+    security_group_ref:
+      domain_name: '%auth%'
+      name: default
+      project_name: '%auth%'
+  type: openstack.network.SecurityGroupRule
+- _info:
+    created_at: '2021-03-24T18:22:19Z'
+    id: 854c39a2-4885-45a5-8e83-77acb6b8bd80
+    project_id: 4fcea3f39f8843dd817a78261588437d
+    remote_group_id: 363bb60f-ad24-4c2f-be83-491e575db37d
+    revision_number: 0
+    security_group_id: 363bb60f-ad24-4c2f-be83-491e575db37d
+    updated_at: '2021-03-24T18:22:19Z'
+  _migration_params: {}
+  params:
+    description: null
+    direction: ingress
+    ether_type: IPv4
+    port_range_max: null
+    port_range_min: null
+    protocol: null
+    remote_group_ref:
+      domain_name: '%auth%'
+      name: default
+      project_name: '%auth%'
+    remote_ip_prefix: null
+    security_group_ref:
+      domain_name: '%auth%'
+      name: default
+      project_name: '%auth%'
+  type: openstack.network.SecurityGroupRule

@@ -1,0 +1,12 @@
+os_migrate_version: 0.7.0
+resources:
+- _info:
+    domain_id: default
+    parent_id: default
+  _migration_params: {}
+  params:
+    description: ''
+    is_domain: false
+    is_enabled: true
+    name: demo
+  type: openstack.identity.Project

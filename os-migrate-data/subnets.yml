@@ -1,0 +1,37 @@
+os_migrate_version: 0.7.0
+resources:
+- _info:
+    created_at: '2021-03-25T05:19:31Z'
+    id: 26ecb024-3346-4145-9439-2e157c4fc55e
+    network_id: af498457-6b4d-4060-ac3a-ef684e053367
+    prefix_length: null
+    project_id: 4fcea3f39f8843dd817a78261588437d
+    revision_number: 0
+    segment_id: null
+    subnet_pool_id: null
+    updated_at: '2021-03-25T05:19:31Z'
+  _migration_params: {}
+  params:
+    allocation_pools:
+    - end: 192.168.0.50
+      start: 192.168.0.10
+    cidr: 192.168.0.0/24
+    description: ''
+    dns_nameservers: []
+    gateway_ip: 192.168.0.254
+    host_routes: []
+    ip_version: 4
+    ipv6_address_mode: null
+    ipv6_ra_mode: null
+    is_dhcp_enabled: true
+    name: demo-subnet01
+    network_ref:
+      domain_name: '%auth%'
+      name: demo-net01
+      project_name: '%auth%'
+    segment_ref: null
+    service_types: []
+    subnet_pool_ref: null
+    tags: []
+    use_default_subnet_pool: null
+  type: openstack.subnet.Subnet

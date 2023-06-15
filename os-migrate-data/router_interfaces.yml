@@ -1,0 +1,22 @@
+os_migrate_version: 0.7.0
+resources:
+- _info:
+    id: 1ddd3509-297e-4c7a-84c0-31dc04138794
+  _migration_params: {}
+  params:
+    device_owner: network:router_interface
+    device_ref:
+      domain_name: '%auth%'
+      name: demo-router1
+      project_name: '%auth%'
+    fixed_ips_refs:
+    - ip_address: 192.168.0.254
+      subnet_ref:
+        domain_name: '%auth%'
+        name: demo-subnet01
+        project_name: '%auth%'
+    network_ref:
+      domain_name: '%auth%'
+      name: demo-net01
+      project_name: '%auth%'
+  type: openstack.network.RouterInterface

@@ -1,0 +1,32 @@
+os_migrate_version: 0.7.0
+resources:
+- _info:
+    default_project_id: 8b724954d39e462b9c4c085a0084da09
+    domain_id: default
+    id: 60b0caf2cf114e0db0df55f395ea2049
+  _migration_params: {}
+  params:
+    default_project_ref:
+      domain_name: null
+      name: demo
+      project_name: null
+    description: null
+    email: demo@example.com
+    is_enabled: true
+    name: demo
+  type: openstack.user.User
+- _info:
+    default_project_id: 8b724954d39e462b9c4c085a0084da09
+    domain_id: default
+    id: 6a23115f9f4642258867b8b3e220b5f9
+  _migration_params: {}
+  params:
+    default_project_ref:
+      domain_name: null
+      name: demo
+      project_name: null
+    description: null
+    email: demo01@a.com
+    is_enabled: true
+    name: demo01
+  type: openstack.user.User
