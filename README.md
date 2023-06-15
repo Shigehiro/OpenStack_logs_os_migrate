@@ -3,7 +3,7 @@
 ## Description
 ---
 
-Here are walkthrough logs of [os-migrage](!https://github.com/os-migrate/os-migrate)
+Here are walkthrough logs of [os-migrate](!https://github.com/os-migrate/os-migrate)
 
 - [devstack setup](./01-devstack-setup.md)
 - [os-migrate-setup](./02-os-migrate-setup.md)
